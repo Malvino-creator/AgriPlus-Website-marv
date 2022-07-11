@@ -5,17 +5,36 @@
     margin-right: 0;
     width: 0;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 .div1, .h_info{
     border: 1.5vmax;
     font-weight: 1.4px;
+    font-size: large;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .logo{
-    width: 30;
+    width: 10;
+    height: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    }
+
+.info{width: 50;
+    height:100;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: 700;
+}
+#buttons{
+    width: 20;
     height: 60;
+    flex-direction: row;
 }
 * {
     scroll-behavior: smooth;
@@ -26,27 +45,20 @@
     padding-left: 0;
     margin-left: 0%;
     margin-right: 0;
-}
-#div1{
-    border: 1px color black;
-}
 strong {
-    text-decoration: underline;
+    text-decoration:underline;
     text-decoration-color: #ed661f;
     text-underline-position: under;
     text-decoration-thickness: 30%;
 }
-
 main {
     padding-left: 10%;
     padding-right: 10%;
 }
-
 a {
     text-decoration: none;
     color: white;
 }
-
 /*===================Main content 1(intro)=========================*/
 header {
     display: flex;
@@ -58,16 +70,6 @@ header {
     margin-left: 0%;
     font-size: 1.5vw;
     background-color: black;
-}
-
-.logo {
-    width: 10%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: azure;
 }
 
 .logo h1 {
@@ -102,7 +104,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 .h_info {
     width: 20%;
     display: flex;
@@ -111,8 +112,7 @@ header {
     align-items: center;
     color: beige;
 }
-
-.head_button {
+.head_buttons {
     width: 35%;
     height: 40%;
 }
