@@ -4,7 +4,10 @@
     scroll-snap-stop: always;
     font-family: "Poppins", sans-serif;
     margin: 0;
+    padding-left: 0;
+    margin-left: 0%;
 }
+
 strong {
     text-decoration: underline;
     text-decoration-color: #ed661f;
@@ -67,6 +70,7 @@ header {
     text-decoration-color: #ed661f;
     text-decoration-thickness: 6px;
 }
+
 #head_cred {
     width: 20%;
     height: 100%;
@@ -76,6 +80,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 .h_info {
     width: 20%;
     display: flex;
@@ -84,10 +89,12 @@ header {
     align-items: center;
     color: beige;
 }
+
 .head_button {
     width: 35%;
     height: 40%;
 }
+
 .head_button 1 {
     color: white;
     font-weight: 600;
@@ -107,6 +114,7 @@ header {
     font-weight: 600;
     border: none;
 }
+
 .head_button {
     height: 100%;
     width: 100%;
