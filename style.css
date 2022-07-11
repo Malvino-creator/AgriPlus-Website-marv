@@ -1,3 +1,21 @@
+.container{
+    display: flex;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 0;
+    width: 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div1, .h_info{
+    border: 1.5vmax;
+    font-weight: 1.4px;
+    font-style: normal;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
 * {
     scroll-behavior: smooth;
     scroll-snap-align: start;
@@ -6,8 +24,11 @@
     margin: 0;
     padding-left: 0;
     margin-left: 0%;
+    margin-right: 0;
 }
-
+#div1{
+    border: 1px color black;
+}
 strong {
     text-decoration: underline;
     text-decoration-color: #ed661f;
