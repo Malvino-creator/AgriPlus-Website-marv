@@ -3,7 +3,6 @@
     margin: 0;
     margin-left: 0;
     margin-right: 0;
-    height: 0;
     width: 0;
     flex-direction: row;
     justify-content: space-between;
@@ -11,10 +10,12 @@
 .div1, .h_info{
     border: 1.5vmax;
     font-weight: 1.4px;
-    font-style: normal;
     flex-direction: row;
     justify-content: space-between;
-
+}
+.logo{
+    width: 30;
+    height: 60;
 }
 * {
     scroll-behavior: smooth;
