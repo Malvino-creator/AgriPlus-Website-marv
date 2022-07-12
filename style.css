@@ -9,7 +9,7 @@ strong {
   text-decoration: underline;
   text-decoration-color: #ed661f;
   text-underline-position: under;
-  text-decoration-thickness: 20%;
+  text-decoration: thick;
 }
 main {
   padding-left: 10%;
@@ -30,6 +30,7 @@ a {
   margin-left: 0%;
   font-size: 1.5vw;
   background-color: black;
+  flex: 0%;
 }
 #logo {
   width: 10%;
