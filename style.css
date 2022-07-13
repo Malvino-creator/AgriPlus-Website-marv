@@ -4,13 +4,12 @@
   scroll-snap-stop: always;
   font-family: "Poppins", sans-serif;
 }
-.background-image{
-    flex-direction: row;
-    display: flex;
-    contain: content;
-    
-    
+
+*.star{
+  height: 200px;
+  width: 100px;
 }
+ 
 strong {
   text-decoration: underline;
   text-decoration-color: #ed661f;
@@ -23,14 +22,18 @@ main {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: black;
+  float: left;
+  gap: 50px;
+  
+  
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 6vw;
+  height: 10vw;
   width: 100%;
   margin-right: 0%;
   margin-left: 0%;
@@ -52,18 +55,22 @@ a {
   font-weight: 800;
 }
 #headerInformation {
-  width: 60%;
-  height: 100%;
+  height: 100px;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  color: white;
-  font-weight: 600;
+  align-items: center;
+  justify-content: space-around
+  
 }
+
 .h_info:hover {
   text-decoration: underline;
   text-decoration-color: #ed661f;
   text-decoration-thickness: 4px;
+  text-decoration-color: white;
+  flex-direction: row;
+
 }
 #head_butn {
   width: 20%;
@@ -74,14 +81,6 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.h_info {
-  width: 20%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
 #hedb1{
   width: 35%;
   height: 40%;
@@ -109,42 +108,49 @@ a {
   font-size: 1.5vw;
   border: none;
 }
-
+ 
 #sectn1 {
   height: 35vw;
   width: 100%;
   font-size: 1.6vw;
   line-height: 3vw;
   margin-top: 5%;
-  background-image: url(./image_1.png);
+  background-image: url("./assets/image\ 1.png");height: 1000px; width: 1080px;
   background-size: contain;
   display: flex;
   flex-direction: row;
 }
-#sct1img {
-  z-index: 2;
-}
+
 #sct1img {
   height: 50%;
-  width: 40%;
+  width: 60%;
   background-size: contain;
   background-repeat: no-repeat;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
 }
 #sct1img2 {
   height: 100%;
   width: 100%;
 }
-#sect1_cont {
+#sect1cont {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-bottom: 10px;
+  padding-bottom: 50px;
 }
-#sect1_header {
-  padding-left: 10%;
+#sect1hed h1 {
+  padding-left: 50%;
+  padding-right: 100px;
   font-size: 1.7vw;
   font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
 }
 #sect1prt1 {
   padding-left: 10%;
@@ -166,7 +172,7 @@ a {
   color: white;
   border: none;
 }
-#statistics {
+#statistics-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -177,13 +183,15 @@ a {
   margin-top: -6.8%;
   background-color: white;
   box-shadow: 0px 3px 10px grey;
+  box-sizing: border-box;
 }
 .stat1_hed{
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   height: 100%;
   width: 30%;
+  background-color: antiquewhite;
 }
 .stat1_hed {
   font-size: 1.2vw;
@@ -191,6 +199,7 @@ a {
 .stat1_p {
   font-size: 1.1vw;
 }
+
 
 #part2 {
   height: 40vw;
@@ -201,11 +210,8 @@ a {
   font-size: 1.7vw;
   margin-top: 5%;
 }
-#prt2_div2 {
-  width: 47%;
-  height: 100%;
-}
-#prt2_div2 {
+
+#prt2-div2 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -339,13 +345,16 @@ a {
 #section6 {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
+  justify-content: first baseline;
   height: fit-content;
+  padding-left: 100px;
 }
 #sect6_head {
   margin-bottom: 2%;
   font-size: 2vw;
   font-weight: 800;
+  margin-right: 20px;
+  margin-left: 30px;
 }
 #sect6_cont {
   width: 100%;
@@ -375,6 +384,8 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  box-sizing: border-box;
+  border: 10px;
 }
 .opinion p {
   padding-left: 10%;
@@ -590,14 +601,13 @@ footer {
 #app_cont {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: inline;
+  align-items: flex-start;
   width: 100%;
+  float: left;
 }
 #badge_cont {
   width: 50%;
-}
-.badge {
-  width: 100%;
-  height: 100%;
+  display: flexbox;
+  float: inline-end;
 }
