@@ -4,7 +4,13 @@
   scroll-snap-stop: always;
   font-family: "Poppins", sans-serif;
 }
-
+.background-image{
+    flex-direction: row;
+    display: flex;
+    contain: content;
+    
+    
+}
 strong {
   text-decoration: underline;
   text-decoration-color: #ed661f;
@@ -20,7 +26,7 @@ a {
   color: white;
 }
 
-#header {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -278,7 +284,7 @@ a {
   justify-content: space-evenly;
 }
 
-}
+
 .box-hed {
   height: 8%;
   width: 100%;
